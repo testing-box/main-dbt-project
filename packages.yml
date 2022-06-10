@@ -11,3 +11,5 @@ packages:
     revision: v0.0.0 # renovate: depName=testing-box/dbt-package-one
   - git: https://github.com/testing-box/dbt-package-two.git
     revision: v0.0.0 # renovate: depName=testing-box/dbt-package-two
+  - git: https://github.com/testing-box/dbt-package-three.git
+    revision: v0.0.0 # renovate: depName=testing-box/dbt-package-three
