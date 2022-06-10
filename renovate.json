@@ -8,5 +8,6 @@
       "matchStrings": ["revision: (?<currentValue>.*?) # renovate: depName=(?<depName>.*)"],
       "datasourceTemplate": "github-releases"
     }
-  ]
+  ],
+  "groupName": "all"
 }
