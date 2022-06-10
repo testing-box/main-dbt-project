@@ -8,7 +8,7 @@ packages:
   - package: fivetran/greenhouse
     version: 0.4.0
   - git: https://github.com/testing-box/dbt-package-one.git
-    revision: v0.0.0 # renovate: depName=testing-box/dbt-package-one
+    revision: v1.0.0 # renovate: depName=testing-box/dbt-package-one
   - git: https://github.com/testing-box/dbt-package-two.git
     revision: v0.0.0 # renovate: depName=testing-box/dbt-package-two
   - git: https://github.com/testing-box/dbt-package-three.git
