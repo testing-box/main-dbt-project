@@ -10,6 +10,6 @@ packages:
   - git: https://github.com/testing-box/dbt-package-one.git
     revision: v1.0.0 # renovate: depName=testing-box/dbt-package-one
   - git: https://github.com/testing-box/dbt-package-two.git
-    revision: v1.1.1 # renovate: depName=testing-box/dbt-package-two
+    revision: v2.0.0 # renovate: depName=testing-box/dbt-package-two
   - git: https://github.com/testing-box/dbt-package-three.git
     revision: v0.0.0 # renovate: depName=testing-box/dbt-package-three
