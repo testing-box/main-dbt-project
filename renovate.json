@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "regexManagers": [    
+    {
+      "fileMatch": ["packages.yml"],
+      "matchStrings": ["revision: (?<currentValue>.*?) # renovate: depName=(?<depName>.*)"],
+      "datasourceTemplate": "github-releases"
+    }
+  ]
+}
