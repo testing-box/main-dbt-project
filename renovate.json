@@ -16,7 +16,12 @@
     },
     {
       "groupName": "dbt",
-      "matchPackagePrefixes": ["testing-box/dbt"]
+      "matchPackagePrefixes": ["testing-box/dbt"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "major"
+      ]
     } 
   ]
 }
