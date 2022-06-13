@@ -13,6 +13,10 @@
     {
       "matchPackageNames": ["dockerfile"],
       "enabled": false
-    }
+    },
+    {
+      "groupName": "dia-dbt",
+      "matchPackagePrefixes": ["dia-dbt.*"]
+    } 
   ]
 }
