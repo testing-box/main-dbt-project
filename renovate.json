@@ -16,7 +16,7 @@
     },
     {
       "groupName": "dbt",
-      "matchPackagePrefixes": ["testing-box/dbt.*"]
+      "matchPackagePrefixes": ["testing-box/dbt"]
     } 
   ]
 }
