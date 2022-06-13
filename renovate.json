@@ -15,8 +15,8 @@
       "enabled": false
     },
     {
-      "groupName": "dia-dbt",
-      "matchPackagePrefixes": ["dia-dbt.*"]
+      "groupName": "dbt",
+      "matchPackagePrefixes": ["testing-box/dbt.*"]
     } 
   ]
 }
