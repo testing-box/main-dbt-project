@@ -7,6 +7,11 @@
       "fileMatch": ["packages.yml"],
       "matchStrings": ["revision: (?<currentValue>.*?) # renovate: depName=(?<depName>.*)"],
       "datasourceTemplate": "github-releases"
+    },
+    {
+      "fileMatch": ["packages.yml"],
+      "matchStrings": ["version: (?<currentValue>.*?) # renovate: depName=(?<depName>.*)"],
+      "datasourceTemplate": "github-releases"
     }
   ],
   "packageRules": [
