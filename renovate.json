@@ -9,5 +9,10 @@
       "datasourceTemplate": "github-releases"
     }
   ],
-  "ignoreDeps": ["dockerfile"]
+  "packageRules": [
+    {
+      "matchPackageNames": ["dockerfile"],
+      "enabled": false
+    }
+  ]
 }
