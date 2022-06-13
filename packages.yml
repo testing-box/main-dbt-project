@@ -1,6 +1,6 @@
 packages:
   - package: dbt-labs/codegen
-    version: 0.1.0 # renovate: depName=dbt-labs/codegen
+    version: 0.1.0 # renovate: depName=dbt-labs/dbt-codegen
   - package: fivetran/fivetran_log
     version: 0.6.0
   - package: fivetran/netsuite
