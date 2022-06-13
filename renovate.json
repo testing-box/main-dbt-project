@@ -9,5 +9,5 @@
       "datasourceTemplate": "github-releases"
     }
   ],
-  "ignoreDeps": ["docker"]
+  "ignoreDeps": ["dockerfile"]
 }
