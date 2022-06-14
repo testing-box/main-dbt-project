@@ -16,7 +16,7 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["dockerfile"],
+      "matchManagers": ["dockerfile"],
       "enabled": false
     },
     {
