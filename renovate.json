@@ -14,8 +14,8 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["dockerfile"],
-      "enabled": false
+      "matchManagers": ["regex"],
+      "enabled": true
     },
     {
       "groupName": "dbt",
