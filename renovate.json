@@ -14,13 +14,10 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["regex"],
-      "enabled": true
-    },
-    {
       "groupName": "dbt",
       "matchPackagePrefixes": ["testing-box/dbt"],
       "separateMajorMinor": false
     } 
-  ]
+  ],  
+  "enabledManagers": ["regex"]
 }
