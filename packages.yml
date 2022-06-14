@@ -4,7 +4,7 @@ packages:
   - package: dbt-labs/dbt_utils
     version: 0.8.3 # renovate: depName=dbt-labs/dbt-utils
   - package: dbt-labs/audit_helper
-    version: 0.4.0 # renovate: depName=dbt-labs/dbt-audit-helper
+    version: 0.5.0 # renovate: depName=dbt-labs/dbt-audit-helper
   - package: fivetran/fivetran_log
     version: 0.6.0
   - package: fivetran/netsuite
