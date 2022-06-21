@@ -14,7 +14,7 @@
     {
       "fileMatch": ["test.py"],
       "matchStrings": [
-        "image=f\"{config.AWS_ECR_URI}/tap-ukg-dimensions:(?<currentValue>.*?) # renovate: depName=(?<depName>.*)"
+        "image=f\"{config.AWS_ECR_URI}/tap-ukg-dimensions:(?<currentValue>.*?), # renovate: depName=(?<depName>.*)"
       ],
       "datasourceTemplate": "github-releases"
     }
