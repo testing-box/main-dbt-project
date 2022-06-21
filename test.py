@@ -9,7 +9,7 @@ def test_dag() -> DAG:
   ):
     test_operator = KubernetesPodOperator(
       namespace="namespace",
-      image="aws-image/test-application:v1.4", # renovate: depName=testing-box/test-tap
+      image=f"{config.AWS_ECR_URI}/tap-ukg-dimensions:v1.4", # renovate: depName=testing-box/test-tap
       get_logs=True,
     )
     
