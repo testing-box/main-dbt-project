@@ -14,7 +14,7 @@
     {
       "fileMatch": ["test.py"],
       "matchStrings": [
-        "tap-ukg-dimensions:(?<currentValue>.*)\", # renovate: depName=(?<depName>.*)"
+        "tap-ukg-dimensions:(?<currentValue>.*)\"\, # renovate: depName=(?<depName>.*)"
       ],
       "datasourceTemplate": "github-releases"
     }
