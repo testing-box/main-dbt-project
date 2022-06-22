@@ -21,7 +21,7 @@
     {
       "fileMatch": ["another_test.yaml"],
       "matchStrings": [
-        "tap-ukg-dimensions:(?<currentValue>.*) # renovate: depName=(?<depName>.*)\n"
+        "tap-ukg-dimensions:(?<currentValue>.*?) # renovate: depName=(?<depName>.*)"
       ],
       "datasourceTemplate": "github-releases"
     }
