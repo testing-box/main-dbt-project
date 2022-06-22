@@ -19,7 +19,7 @@
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["another_test.py"],
+      "fileMatch": ["another_test.yaml"],
       "matchStrings": [
         "tap-ukg-dimensions:(?<currentValue>.*) # renovate: depName=(?<depName>.*)\n"
       ],
