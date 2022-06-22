@@ -12,7 +12,7 @@
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["test.py"],
+      "fileMatch": ["dags/extract/test.py"],
       "matchStrings": [
         "image=f\"{config.AWS_ECR_URI}\/tap-ukg-dimensions:(?<currentValue>.*)\", # renovate: depName=(?<depName>.*)\n"
       ],
