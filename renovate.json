@@ -19,7 +19,7 @@
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["another_test.yaml"],
+      "fileMatch": ["another_test.yml"],
       "matchStrings": [
         "revision: (?<currentValue>.*?) # renovate: depName=(?<depName>.*)",
       ],
