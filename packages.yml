@@ -1,6 +1,6 @@
 packages:
   - package: dbt-labs/codegen
-    version: 0.1.0 # renovate: depName=dbt-labs/dbt-codegen
+    version: 0.7.0 # renovate: depName=dbt-labs/dbt-codegen
   - package: dbt-labs/dbt_utils
     version: 0.8.3 # renovate: depName=dbt-labs/dbt-utils
   - package: dbt-labs/audit_helper
